@@ -144,5 +144,5 @@ if __name__ == '__main__':
     b = Pepperoni()
     print(a.recipe)  # printing recipe
     print(b.child_recipe)  # printing emoji recipe
-    print(a.description)
+    print(a.description)  # Combination of soft chicken and juicy pineapples
     a == b

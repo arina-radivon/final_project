@@ -18,9 +18,9 @@ if __name__ == '__main__':
 
 The file contains:
 
--- The function of displaying the normal and children's menu. A regular menu is displayed with a description of each pizza and a welcome message.
--- An order function that accepts an order, displays a message about it and passes the order on to delivery or pickup.
--- A decorator that wraps the cooking, delivery, and pickup functions and specifies the duration time.
++ The function of displaying the normal and children's menu. A regular menu is displayed with a description of each pizza and a welcome message.
++ An order function that accepts an order, displays a message about it and passes the order on to delivery or pickup.
++ A decorator that wraps the cooking, delivery, and pickup functions and specifies the duration time.
 
 All functions can be used both individually and using the console. To use the listed functions using the console, you should:
 

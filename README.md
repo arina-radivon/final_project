@@ -44,7 +44,7 @@ If the order is transferred for self-delivery, then don't write the flag --deliv
 
 ## tests.py
 
-The file provides tests for cli.py and pizza.py files. You can see the code coverage by tests in the *htmlcov* folder in the *cli_py* and *pizza_py* files, respectively.
+The file provides tests for cli.py and pizza.py files.
 
 To run the code you need:  
 Install the appropriate package if you don't have it. This can be done on the command line by typing:
@@ -65,5 +65,5 @@ python -m pytest -q tests.py --cov
 ```
 You can save the coverage report to an html file by typing:
 ```python
-python -m pytest -q what_is_year_now.py --cov . --cov-report html
+python -m pytest -q tests.py --cov . --cov-report html
 ```
